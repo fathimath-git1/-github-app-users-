@@ -13,7 +13,12 @@ const Add = () => {
         console.log(input)
     }
   return (
-   <div>
+   <div style={{
+        backgroundImage: 'url("https://your-image-url.com/image.jpg")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        minHeight: '100vh'
+      }}>
         <Nav/>
         <div className="container">
             <div className="row">

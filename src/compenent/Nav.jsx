@@ -26,6 +26,7 @@ const Nav = () => {
           <Link class="nav-link" to="/View">View</Link>
         </li>
         
+        
       </ul>
     </div>
   </div>

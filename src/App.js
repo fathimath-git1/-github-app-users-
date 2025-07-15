@@ -5,11 +5,12 @@ import Search from './compenent/Search';
 import Delete from './compenent/Delete';
 import View from './compenent/View';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './compenent/Home';
 
 function App() {
   return (
     <div>
-
+       
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Add/>}/>

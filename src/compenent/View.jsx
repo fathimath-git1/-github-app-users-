@@ -33,7 +33,7 @@ const View = () => {
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <div className="row g-3">
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                <table class="table" >
+                                <table class="table table-bordered" >
                                     <thead>
                                         <tr>
                                             <th scope="col"> Id</th>
@@ -67,7 +67,7 @@ const View = () => {
       
       <td>{value.id}</td>
       <td>{value.node_id}</td>
-      <td>{value.avatar_url}</td>
+      <td><img className= "rounded-circle" src={value.avatar_url} height="50px" width="50px"/></td>
       <td>{value.gravatar_id}</td>
       <td>{value.url}</td>
       <td>{value.html_url}</td>
